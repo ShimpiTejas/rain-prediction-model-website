@@ -1,31 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Annual Rainfall 2023</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-900 text-white">
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-900 text-white">
     <section class="py-20 px-8">
-        <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                <!-- Image -->
-                <div class="flex items-center justify-center">
-                    <img src="./{D7AD2F86-73DD-4A6C-9283-746AFBDB7684}.png" alt="Annual Rainfall 2023" class="rounded-xl">
-                </div>
-                <!-- Text -->
-                <div class="flex flex-col justify-center">
-                    <h1 class="text-4xl font-bold mb-6">Annual Rainfall of 2023</h1>
-                    <p class="text-gray-400">
-                        PREDICTED ON 2023<br><br>
-                        The blue line in the graph shows the actual rainfall data for 2023. The green line shows the fitted ARIMA model's prediction of the rainfall data. The shaded areas around the green line show the model's uncertainty in its predictions. The wider the shaded area, the less certain the model is about its prediction. The two horizontal red lines show the thresholds used to define heavy rainfall and no rainfall events. The ARIMA model was used to predict the probability of a heavy rainfall or no rainfall event occurring at each time point. These probabilities are shown by the gray line in the graph. The higher the gray line, the more likely it is that a heavy rainfall event will occur at that time point. The x-axis of the graph shows the time in days. The y-axis of the graph shows the rainfall in millimeters. The graph shows the data for the entire year of 2023.
-                    </p>
-                    <!-- Back Button -->
-                    <a href="index.html#stats" class="mt-8 bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg text-white text-center w-fit">Back to Home</a>
-                </div>
-            </div>
+      <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <!-- Image -->
+          <div class="flex items-center justify-center">
+            <img
+              src="./images/{D7AD2F86-73DD-4A6C-9283-746AFBDB7684}.png"
+              alt="Annual Rainfall 2023"
+              class="rounded-xl"
+            />
+          </div>
+          <!-- Text -->
+          <div class="flex flex-col justify-center">
+            <h1 class="text-4xl font-bold mb-6">Annual Rainfall of 2023</h1>
+            <p class="text-gray-400">
+              PREDICTED ON 2023<br /><br />
+              The blue line in the graph shows the actual rainfall data for
+              2023. The green line shows the fitted ARIMA model's prediction of
+              the rainfall data. The shaded areas around the green line show the
+              model's uncertainty in its predictions. The wider the shaded area,
+              the less certain the model is about its prediction. The two
+              horizontal red lines show the thresholds used to define heavy
+              rainfall and no rainfall events. The ARIMA model was used to
+              predict the probability of a heavy rainfall or no rainfall event
+              occurring at each time point. These probabilities are shown by the
+              gray line in the graph. The higher the gray line, the more likely
+              it is that a heavy rainfall event will occur at that time point.
+              The x-axis of the graph shows the time in days. The y-axis of the
+              graph shows the rainfall in millimeters. The graph shows the data
+              for the entire year of 2023.
+            </p>
+            <!-- Back Button -->
+            <a
+              href="index.html#stats"
+              class="mt-8 bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg text-white text-center w-fit"
+              >Back to Home</a
+            >
+          </div>
         </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
